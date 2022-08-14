@@ -3,7 +3,6 @@ import { StyleSheet,Image, Text, View } from 'react-native';
 import { useEffect,useState } from 'react';
 import UserAvatar from 'react-native-user-avatar';
 
-// import { Avatar } from "@rneui/themed";
 export default function App() {
   const [data, setdata] = useState([]);
   useEffect(() => {
